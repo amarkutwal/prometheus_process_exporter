@@ -1,4 +1,4 @@
-#A bash script to install the prometheus process_exporter on Linux servers.
+# A bash script to install the prometheus process_exporter on Linux servers.
 
 
 ## About process exporter
