@@ -4,7 +4,8 @@
 ## About process exporter
 1. Prometheus exporter that mines /proc to report on selected processes. It grabs the processes related metrics from server and present to Prometheus.
 2. It runs on port 9256 by default.
-3. More information related process exporter can be found in https://github.com/ncabatoff/process-exporter
+3. Metrics can be view on local server/node by curl -X GET http://localhost:9256/metrics
+4. More information related process exporter can be found in https://github.com/ncabatoff/process-exporter
 
 ## About Prometheus
 1. Prometheus is an open source, metrics-based monitoring and alerting system. It records real-time metrics in a time series database built using a HTTP pull model, with flexible queries and real-time alerting.
